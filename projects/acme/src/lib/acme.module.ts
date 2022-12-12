@@ -1,16 +1,10 @@
-import { NgModule } from '@angular/core';
-import { AcmeComponent } from './acme.component';
-
-
+import {NgModule} from '@angular/core';
+import {ComponentsModule} from "./components";
 
 @NgModule({
-  declarations: [
-    AcmeComponent
-  ],
-  imports: [
-  ],
-  exports: [
-    AcmeComponent
-  ]
+    imports: [ComponentsModule],
+    exports: [ComponentsModule],
+    declarations: []
 })
-export class AcmeModule { }
+export class AcmeModule {
+}
